@@ -96,13 +96,6 @@ img {
     margin-top: 0;
   }
 
-
-  #lezioni .row img {
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
@@ -111,5 +104,24 @@ img {
     margin-bottom: 30px;
   }
 
+  #lezioni .row img {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+  }
+
+  #steps .row img {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
