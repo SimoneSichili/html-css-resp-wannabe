@@ -97,43 +97,22 @@ img {
   }
 
   #lezioni .row>.left,
-  #lezioni .row>.right {
-    width: 100%;
-    float: none;
-    margin-bottom: 30px;
-    font-size: 1.3em;
-  }
-
-  #lezioni .row img {
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
+  #lezioni .row>.right,
   #steps .row>.left,
   #steps .row>.central,
-  #steps .row>.right {
-    float: none;
-    width: 100%;
-    margin-bottom: 30px;
-    font-size: 1.3em;
-  }
-
-  #steps .row img {
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
+  #steps .row>.right,
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
     width: 100%;
+    float: none;
     margin-top: 0;
     margin-bottom: 30px;
     font-size: 1.3em;
   }
 
+  #lezioni .row img,
+  #steps .row img,
   #why .row img {
     display: inline-block;
     text-align: center;
